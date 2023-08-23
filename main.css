@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1
+{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 120px;
+}
+
+#botaoinicio
+{
+    margin-bottom: 20px;
+}
+
+.carousel-inner img
+{
+    height: 650px;
+}
+
+.card 
+{
+    margin-top: 50px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card h5
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card p
+{
+    text-align: justify;
+}
+
+@media (max-width: 768px) 
+{
+    .carousel-inner img 
+    {
+        height: 300px;
+    }
+}
+
+@media (max-width: 576px) 
+{
+    .card 
+    {
+        height: auto;
+    }
+    .card-body {
+        padding: 15px;
+    }
+}
+
+@media (min-width: 992px) 
+{
+    h1 
+    {
+        font-size: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) 
+{
+    h1 
+    {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 767px) 
+{
+    h1 
+    {
+        font-size: 60px;
+    }
+}
